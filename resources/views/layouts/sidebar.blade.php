@@ -57,80 +57,52 @@
                                     </ul><!--end nav-->
                                 </div><!--end startbarApplications-->
                             </li><!--end nav-item-->
-                            <li class="menu-label mt-2">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sidebarApplications" data-bs-toggle="collapse" role="button"
+                                    aria-expanded="false" aria-controls="sidebarApplications">
+                                    <i class="iconoir-view-grid menu-icon"></i>
+                                    <span>Leave Management</span>
+                                </a>
+                                <div class="collapse " id="sidebarApplications">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">All Leave Request</a>
+                                        </li><!--end nav-item--> 
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Leave Balance</a>
+                                        </li><!--end nav-item--> 
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Leave Setting</a>
+                                        </li><!--end nav-item-->  
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Leave Types</a>
+                                        </li><!--end nav-item-->                                
+                                    </ul><!--end nav-->
+                                </div><!--end startbarApplications-->
+                            </li><!--end nav-item-->
+                            <!-- <li class="menu-label mt-2">
                                 <small class="label-border">
                                     <div class="border_left hidden-xs"></div>
                                     <div class="border_right"></div>
                                 </small>
                                 <span>Components</span>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link" href="#sidebarElements" data-bs-toggle="collapse" role="button"
                                     aria-expanded="false" aria-controls="sidebarElements">
                                     <i class="iconoir-compact-disc menu-icon"></i>
-                                    <span>UI Elements</span>
+                                    <span>Training</span>
                                 </a>
                                 <div class="collapse " id="sidebarElements">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-alerts.html">Alerts</a>
+                                            <a class="nav-link" href="ui-alerts.html">Training List</a>
                                         </li><!--end nav-item--> 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-avatar.html">Avatar</a>
+                                            <a class="nav-link" href="ui-avatar.html">Trainers</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-buttons.html">Buttons</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-badges.html">Badges</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-cards.html">Cards</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-carousels.html">Carousels</a>
-                                        </li><!--end nav-item-->                                
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-dropdowns.html">Dropdowns</a>
-                                        </li><!--end nav-item-->                                   
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-grids.html">Grids</a>
-                                        </li><!--end nav-item-->                                
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-images.html">Images</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-list.html">List</a>
-                                        </li><!--end nav-item-->                                   
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-modals.html">Modals</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-navs.html">Navs</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-navbar.html">Navbar</a>
-                                        </li><!--end nav-item--> 
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-paginations.html">Paginations</a>
-                                        </li><!--end nav-item-->   
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-popover-tooltips.html">Popover & Tooltips</a>
-                                        </li><!--end nav-item-->                                
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-progress.html">Progress</a>
-                                        </li><!--end nav-item-->                                
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-spinners.html">Spinners</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-tabs-accordions.html">Tabs & Accordions</a>
-                                        </li><!--end nav-item-->                               
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-typography.html">Typography</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="ui-videos.html">Videos</a>
+                                            <a class="nav-link" href="ui-videos.html">Training Type</a>
                                         </li><!--end nav-item--> 
                                     </ul><!--end nav-->
                                 </div><!--end startbarElements-->
@@ -139,40 +111,16 @@
                                 <a class="nav-link" href="#sidebarAdvancedUI" data-bs-toggle="collapse" role="button"
                                     aria-expanded="false" aria-controls="sidebarAdvancedUI">
                                     <i class="iconoir-peace-hand menu-icon"></i>
-                                    <span>Advanced UI</span><span class="badge rounded text-success bg-success-subtle ms-1">New</span>
+                                    <span>Payroll</span><span class="badge rounded text-success bg-success-subtle ms-1">New</span>
                                 </a>
                                 <div class="collapse " id="sidebarAdvancedUI">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-animation.html">Animation</a>
+                                            <a class="nav-link" href="advanced-animation.html">Employee Salary</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-clipboard.html">Clip Board</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="advanced-dragula.html">Dragula</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="advanced-files.html">File Manager</a>
-                                        </li><!--end nav-item--> 
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="advanced-highlight.html">Highlight</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="advanced-rangeslider.html">Range Slider</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="advanced-ratings.html">Ratings</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="advanced-ribbons.html">Ribbons</a>
-                                        </li><!--end nav-item-->                                  
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="advanced-sweetalerts.html">Sweet Alerts</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="advanced-toasts.html">Toasts</a>
-                                        </li><!--end nav-item-->
+                                            <a class="nav-link" href="advanced-ratings.html">Payslip</a>
+                                        </li><!--end nav-item-->                              
                                     </ul><!--end nav-->
                                 </div><!--end startbarAdvancedUI-->
                             </li><!--end nav-item-->
@@ -180,30 +128,15 @@
                                 <a class="nav-link" href="#sidebarForms" data-bs-toggle="collapse" role="button"
                                     aria-expanded="false" aria-controls="sidebarForms">
                                     <i class="iconoir-journal-page menu-icon"></i>
-                                    <span>Forms</span>
+                                    <span>Departments</span>
                                 </a>
                                 <div class="collapse " id="sidebarForms">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="forms-elements.html">Basic Elements</a>
+                                            <a class="nav-link" href="forms-elements.html">All Department</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="forms-advanced.html">Advance Elements</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="forms-validation.html">Validation</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="forms-wizard.html">Wizard</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="forms-editors.html">Editors</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="forms-uploads.html">File Upload</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="forms-img-crop.html">Image Crop</a>
+                                            <a class="nav-link" href="forms-advanced.html">Add Depatment</a>
                                         </li><!--end nav-item-->
                                     </ul><!--end nav-->
                                 </div><!--end startbarForms-->
@@ -325,7 +258,7 @@
                                 <a class="nav-link" href="#sidebarPages" data-bs-toggle="collapse" role="button"
                                     aria-expanded="false" aria-controls="sidebarPages">
                                     <i class="iconoir-page-star menu-icon"></i>
-                                    <span>Pages</span>
+                                    <span>Users</span>
                                 </a>
                                 <div class="collapse " id="sidebarPages">
                                     <ul class="nav flex-column">
@@ -334,24 +267,6 @@
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages-notifications.html">Notifications</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages-timeline.html">Timeline</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages-treeview.html">Treeview</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages-starter.html">Starter Page</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages-pricing.html">Pricing</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages-blogs.html">Blogs</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages-faq.html">FAQs</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages-gallery.html">Gallery</a>
@@ -363,7 +278,7 @@
                                 <a class="nav-link" href="#sidebarAuthentication" data-bs-toggle="collapse" role="button"
                                     aria-expanded="false" aria-controls="sidebarAuthentication">
                                     <i class="iconoir-fingerprint-lock-circle menu-icon"></i>
-                                    <span>Authentication</span>
+                                    <span>Employee</span>
                                 </a>
                                 <div class="collapse " id="sidebarAuthentication">
                                     <ul class="nav flex-column">
@@ -373,33 +288,11 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="auth-register.html">Register</a>
                                         </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="auth-recover-pw.html">Re-Password</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="auth-lock-screen.html">Lock Screen</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="auth-maintenance.html">Maintenance</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="auth-404.html">Error 404</a>
-                                        </li><!--end nav-item-->
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="auth-500.html">Error 500</a>
-                                        </li><!--end nav-item-->
+                                        
                                     </ul><!--end nav-->
                                 </div><!--end startbarAuthentication-->
                             </li><!--end nav-item-->
                         </ul><!--end navbar-nav--->
-                        <div class="update-msg text-center"> 
-                            <div class="d-flex justify-content-center align-items-center thumb-lg update-icon-box  rounded-circle mx-auto">
-                                <i class="iconoir-peace-hand h3 align-self-center mb-0 text-primary"></i>
-                            </div>                   
-                            <h5 class="mt-3">Mannat Themes</h5>
-                            <p class="mb-3 text-muted">Rizz is a high quality web applications.</p>
-                            <a href="javascript: void(0);" class="btn text-primary shadow-sm rounded-pill">Upgrade your plan</a>
-                        </div>
                     </div>
                 </div><!--end startbar-collapse-->
             </div><!--end startbar-menu-->    
